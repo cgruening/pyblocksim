@@ -506,7 +506,7 @@ def gen_rhs(stateadmin):
     return exceptionwrapper(rhs)
 
 
-def compute_block_ouptputs(simresults):
+def compute_block_outputs(simresults):
     
     args = theStateAdmin.stateVars + theStateAdmin.inputs
     assert simresults.shape[1] == len(args)
